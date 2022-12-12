@@ -69,9 +69,9 @@ class Sun:
     def __init__(self):
         pass
     def sun_(self):
-        # In this world the sun shines for 10 hours and does not shine for 14 hours
+        # In this world the sun shines for 11 hours and does not shine for 13 hours
         if day.morning():
-            minutes = (16 - int(current_time))*60 + int(cur)
+            minutes = (19 - int(current_time))*60 + int(cur)
             return(f"The sun will shine for another {minutes} minutes")
         else:
             return("Its night, so the sun does not shine")
