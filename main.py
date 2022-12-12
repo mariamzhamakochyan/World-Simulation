@@ -58,7 +58,7 @@ class Grass:
     
     def grass_(self):
         if not day.morning():
-            print("Grass is unlimited.")
+            return("Grass is unlimited.")
         elif day.morning():
             if int(current_time) % 2 == 0:
                 return("The grass grows endlessly.")
